@@ -1,7 +1,6 @@
 import numpy as np
 import tkinter as tk
-import pkg_resources
-pkg_resources.require("numpy==`1.13.3")  # modified to use specific numpy
+
 
 version = np.__version__
 
