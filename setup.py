@@ -11,6 +11,8 @@ base = None
 executables = [Executable("exe1.py", base=base),
                Executable("exe2.py", base=base)]
 
+# options = {'build_exe': {'init_script':'Console'}}
+
 if sys.platform == "win32":
     base = "Win32GUI"
 
