@@ -9,7 +9,8 @@ build_exe_options = {"packages": ["os"]}
 base = None
 
 executables = [Executable("exe1.py", base=base),
-               Executable("exe2.py", base=base)]
+               Executable("exe2.py", base=base), 
+               Executable("exe3.py", base=base)]
 
 # options = {'build_exe': {'init_script':'Console'}}
 
