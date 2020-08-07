@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\natuo\OneDrive\Documents\SHOOL\Internship\Arcurve\cx_Freeze\test"
+VIRTUAL_ENV="C:\Users\natuo\OneDrive\Documents\SHOOL\Internship\Arcurve\cx_Freeze\env3"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(test) " != x ] ; then
-	PS1="(test) ${PS1:-}"
+    if [ "x(env3) " != x ] ; then
+	PS1="(env3) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
