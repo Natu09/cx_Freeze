@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\natuo\OneDrive\Documents\SHOOL\Internship\Arcurve\cx_Freeze\env3"
+$env:VIRTUAL_ENV="C:\Users\natuo\OneDrive\Documents\SHOOL\Internship\Arcurve\cx_Freeze\subFolderTest\env3"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name
