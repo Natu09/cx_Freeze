@@ -2,12 +2,13 @@ import sys
 from cx_Freeze import setup, Executable
 
 # Dependencies are automatically detected, but it might need fine tuning.
-build_exe_options = {"packages": ["os"]}
+build_exe_options = {"packages": ["os", ""]}
 
 # GUI applications require a different base on Windows (the default is for a
 # console application).
 base = None
 
+# look for enviroments, initialization script
 executables = [Executable("exe1.py", base=base),
                Executable("exe2.py", base=base), 
                Executable("exe3.py", base=base)]
